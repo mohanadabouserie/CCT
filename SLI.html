@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./p.js"></script>
+        <style>.hidden {
+            display: none;
+          }
+          </style>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">Options</button>
+        <ul id="menu" style="display: none;">
+          <li><a href="index.html">Student Clubs & Organizations</a></li>
+          <li><a href="student_government.html">Student Government</a></li>
+          <li><a href="office_led.html">Office-Led Programs</a></li>
+          <li><a href="career_dev.html">Career Development</a></li>
+          <li><a href="">Athletics</a></li>
+          <li><a href="">Competitions</a></li>
+          <li><a href="">Undergraduate Research Program</a></li>
+        </ul>
+        
+        <script>
+        function toggleMenu() {
+          var menu = document.getElementById("menu");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        }
+        </script>
+        
+        <br>
+        <br>
+        <button onclick="toggleMenu2()">Office-Led Programs</button>
+        <ul id="menu2" style="display: none;">
+          <li><a href="office_led.html">First Year Program (FYP)</a></li>
+          <li><a href="SA.html">Student Ambassadors Program</a></li>
+          <li><a href="SLI.html">Student Leadership Institute</a></li>
+        </ul>
+        
+        <script>
+        function toggleMenu2() {
+          var menu = document.getElementById("menu2");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        }
+        </script>
+
+<h1>Student Leadership Institute</h1>
+<div style="padding:3px 10px 15px 5px;">
+    <table class="dataentrytable">
+       <tbody>          
+          </tr>
+          <tr>
+             <td class="dedefault"><label><span class="fieldlabeltext">Semester:</span></label><span
+                   class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                      align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                      vspace="0" border="0" height="9" width="10"></span></td>
+             <td style="padding-bottom:0px;" class="dedefault">
+                <select name="term" id="term">
+                 <option value="">--Select a Semester--</option>
+                   <option value="Fall 2021">Fall 2022</option>
+                   <option value="Spring 2022">Spring 2023</option>
+                </select>
+             </td>
+          </tr>
+       </tbody>
+    </table>
+    <button id="id____UID6" type="submit" name="submit_btn" value="Save" onclick="beforeSubmit(this)" '="" class="htmlButton" url=""><div class="defaultButtonSmall"><div><div>Save</div></div></div></button><input type="submit" name="submit_btn" value="Save" style="display: none;">
+ <button id="id____UID7" type="submit" name="submit_btn" value="Reset" onclick="beforeSubmit(this)" '=""
+       class="htmlButton" url="">
+       <div class="defaultButtonSmall">
+          <div>
+             <div>Reset</div>
+          </div>
+       </div>
+    </button><input type="submit" name="submit_btn" value="Reset" style="display: none;">
+ 
+ </div>
+ </div>
+ </form>
+     </body>
+ </html>

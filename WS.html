@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./p.js"></script>
+        <style>.hidden {
+            display: none;
+          }
+          </style>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">Options</button>
+        <ul id="menu" style="display: none;">
+          <li><a href="index.html">Student Clubs & Organizations</a></li>
+          <li><a href="student_government.html">Student Government</a></li>
+          <li><a href="office_led.html">Office-Led Programs</a></li>
+          <li><a href="career_dev.html">Career Development</a></li>
+          <li><a href="">Athletics</a></li>
+          <li><a href="">Competitions</a></li>
+          <li><a href="">Undergraduate Research Program</a></li>
+        </ul>
+        
+        <script>
+        function toggleMenu() {
+          var menu = document.getElementById("menu");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        }
+        </script>
+        
+        <br>
+        <br>
+        <button onclick="toggleMenu2()">Career Development</button>
+        <ul id="menu2" style="display: none;">
+          <li><a href="career_dev.html">Cooperative Education (CO-OP)</a></li>
+          <li><a href="internship.html">Internship</a></li>
+          <li><a href="job_sh.html">Job Shadowing</a></li>
+          <li><a href="WS.html">Work Study Program</a></li>
+        </ul>
+        
+        <script>
+        function toggleMenu2() {
+          var menu = document.getElementById("menu2");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        }
+        </script>
+
+<h1>Work Study Program</h1>
+<div style="padding:3px 10px 15px 5px;">
+   <table class="dataentrytable">
+      <tbody>
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Center / Department / Office:</span></label><span
+                  class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                     align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                     vspace="0" border="0" height="9" width="10"></span></td>
+            <td style="padding-bottom:0px;" class="dedefault">
+               <select name="term" id="term">
+                <option value="">--Select a Center / Department / Office--</option>
+                  <option value="Fall 2021">AUC Career Center</option>
+                  <option value="Spring 2022">AUC Forum</option>
+                  <option value="Spring 2022">AUC Venture Lab</option>
+                  <option value="Spring 2022">Center for Entrepreneurship and Innovation</option>
+                  <option value="Spring 2022">Center for Learning and Teaching</option>
+                  <option value="Spring 2022">Center for Migration and Refugee Studies</option>
+                  <option value="Spring 2022">Center for Student Well-Being</option>
+                  <option value="Spring 2022">Department of Accounting</option>
+                  <option value="Spring 2022">Department of Applied Linguistics</option>
+                  <option value="Spring 2022">Department of Arab and Islamic Civilizations</option>
+                  <option value="Spring 2022">Department of Arabic Lnaguage Instruction</option>
+                  <option value="Spring 2022">Department of Architecture</option>
+                  <option value="Spring 2022">Department of the Arts</option>
+                  <option value="Spring 2022">Department of Biology</option>
+                  <option value="Spring 2022">Department of Chemistry</option>
+                  <option value="Spring 2022">Department of Computer Science and Engineering</option>
+                  <option value="Spring 2022">Department of Construction Engineering</option>
+                  <option value="Spring 2022">Department of Economics</option>
+                  <option value="Spring 2022">Department of Educational Studies</option>
+                  <option value="Spring 2022">Department of English and Comparative Literature</option>
+                  <option value="Spring 2022">Department of Enlgish Language Instruction</option>
+                  <option value="Spring 2022">Department of Histroy</option>
+                  <option value="Spring 2022">Department of Journalism and Mass Communication</option>
+                  <option value="Spring 2022">Department of Law</option>
+                  <option value="Spring 2022">Department of Management</option>
+                  <option value="Spring 2022">Department of Mathematics and Actuarial Science</option>
+                  <option value="Spring 2022">Department of Mechanical Engineering</option>
+                  <option value="Spring 2022">Department of Petroleum and Energy Engineering</option>
+                  <option value="Spring 2022">Department of Philosophy</option>
+                  <option value="Spring 2022">Department of Phyics</option>
+                  <option value="Spring 2022">Department of Political Science</option>
+                  <option value="Spring 2022">Department of Psychology</option>
+                  <option value="Spring 2022">Department of Public Policy and Administration</option>
+                  <option value="Spring 2022">Department of Rhetoric and Composition</option>
+                  <option value="Spring 2022">Department of Sociology, Egyptology and Anthropology</option>
+                  <option value="Spring 2022">GAPP Executive Education</option>
+                  <option value="Spring 2022">John D. Gerhart Center for Philanthropy, Civic Engagement and Responsible Business</option>
+                  <option value="Spring 2022">Kamal Adham Center for Television and Digital Journalism</option>
+                  <option value="Spring 2022">Middle East Studies Center</option>
+                  <option value="Spring 2022">Office of Athletics</option>
+                  <option value="Spring 2022">Office of Academic Integrity</option>
+                  <option value="Spring 2022">Office of Budget and Financial Planning</option>
+                  <option value="Spring 2022">Office of Controller</option>
+                  <option value="Spring 2022">Office of Counselor</option>
+                  <option value="Spring 2022">Office of the Dean of Students</option>
+                  <option value="Spring 2022">Office of Facilities and Operations</option>
+                  <option value="Spring 2022">Office of Faculty Housing</option>
+                  <option value="Spring 2022">Office of the General Counsel and Compliance</option>
+                  <option value="Spring 2022">Office of Human Resources</option>
+                  <option value="Spring 2022">Office of Institutional Equity</option>
+                  <option value="Spring 2022">Office of International Programs and Services</option>
+                  <option value="Spring 2022">Office of Marketing Communication and Public Affairs</option>
+                  <option value="Spring 2022">Office of Procurement Services</option>
+                  <option value="Spring 2022">Office of the Registrar</option>
+                  <option value="Spring 2022">Office of Residential Life</option>
+                  <option value="Spring 2022">Office of Security</option>
+                  <option value="Spring 2022">Office of Sponsored Programs</option>
+                  <option value="Spring 2022">Office of Strategy Management and Institutional Effectiveness</option>
+                  <option value="Spring 2022">Office of Student Accounting</option>
+                  <option value="Spring 2022">Office of Student Financial Affairs and Scholarships</option>
+                  <option value="Spring 2022">Office of Sustainability</option>
+                  <option value="Spring 2022">Office of the Vice President for Management and Operations</option>
+                  <option value="Spring 2022">School of Business Executive Education</option>
+                  <option value="Spring 2022">Student Development and Community Relations</option>
+                  <option value="Spring 2022">Travel Office</option>
+
+
+               </select>
+            </td>
+         </tr>
+
+        <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Position:</span></label><span
+                class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                   align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                   vspace="0" border="0" height="9" width="10"></span></td>
+            <td class="dedefault">
+                
+               <input type="text" name="upload_url" size="60" maxlength="900">
+               
+            </td>
+         </tr>
+
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Semester:</span></label><span
+                  class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                     align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                     vspace="0" border="0" height="9" width="10"></span></td>
+            <td style="padding-bottom:0px;" class="dedefault">
+               <select name="term" id="term">
+                <option value="">--Select a Semester--</option>
+                  <option value="Fall 2021">Fall 2022</option>
+                  <option value="Spring 2022">Spring 2023</option>
+               </select>
+            </td>
+         </tr>
+         
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Coordinator / Supervisor Name:</span></label><span
+                class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                   align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                   vspace="0" border="0" height="9" width="10"></span></td>
+            <td class="dedefault">
+                
+               <input type="text" name="upload_url" size="60" maxlength="900">
+               
+            </td>
+         </tr>
+
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Coordinator / Supervisor Email:</span></label><span
+                class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                   align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                   vspace="0" border="0" height="9" width="10"></span></td>
+            <td class="dedefault">
+                
+               <input type="text" name="upload_url" size="60" maxlength="900">
+               
+            </td>
+         </tr>
+
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Coordinator / Supervisor Position:</span></label><span
+                class="fieldrequiredtext"></span></td>
+            <td class="dedefault">
+                
+               <input type="text" name="upload_url" size="60" maxlength="900">
+               
+            </td>
+         </tr>
+
+      </tbody>
+   </table>
+   <button id="id____UID6" type="submit" name="submit_btn" value="Save" onclick="beforeSubmit(this)" '="" class="htmlButton" url=""><div class="defaultButtonSmall"><div><div>Save</div></div></div></button><input type="submit" name="submit_btn" value="Save" style="display: none;">
+<button id="id____UID7" type="submit" name="submit_btn" value="Reset" onclick="beforeSubmit(this)" '=""
+      class="htmlButton" url="">
+      <div class="defaultButtonSmall">
+         <div>
+            <div>Reset</div>
+         </div>
+      </div>
+   </button><input type="submit" name="submit_btn" value="Reset" style="display: none;">
+
+</div>
+</div>
+</form>
+    </body>
+</html>

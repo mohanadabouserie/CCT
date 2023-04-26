@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./p.js"></script>
+        <style>.hidden {
+            display: none;
+          }
+          </style>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">Options</button>
+        <ul id="menu" style="display: none;">
+          <li><a href="index.html">Student Clubs & Organizations</a></li>
+          <li><a href="student_government.html">Student Government</a></li>
+          <li><a href="office_led.html">Office-Led Programs</a></li>
+          <li><a href="career_dev.html">Career Development</a></li>
+          <li><a href="">Athletics</a></li>
+          <li><a href="">Competitions</a></li>
+          <li><a href="">Undergraduate Research Program</a></li>
+        </ul>
+        
+        <script>
+        function toggleMenu() {
+          var menu = document.getElementById("menu");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        }
+        </script>
+        
+        <br>
+        <br>
+        <button onclick="toggleMenu2()">Student Government</button>
+        <ul id="menu2" style="display: none;">
+          <li><a href="student_government.html">Student Court</a></li>
+          <li><a href="student_senate.html">Student Senate</a></li>
+          <li><a href="student_union.html">Student Union</a></li>
+        </ul>
+        
+        <script>
+        function toggleMenu2() {
+          var menu = document.getElementById("menu2");
+          if (menu.style.display === "none") {
+            menu.style.display = "block";
+          } else {
+            menu.style.display = "none";
+          }
+        }
+        </script>
+
+<h1>Student Senate</h1>
+<div style="padding:3px 10px 15px 5px;">
+   <table class="dataentrytable">
+      <tbody>
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Position:</span></label><span
+                  class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                     align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                     vspace="0" border="0" height="9" width="10"></span></td>
+            <td style="padding-bottom:0px;" class="dedefault">
+               <select name="position" id="position">
+                  <option value="">--Select a Position--</option>
+                  <option value="PRE">Member</option>
+               </select>
+            </td>
+         </tr>
+
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Role:</span></label><span
+                  class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                     align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                     vspace="0" border="0" height="9" width="10"></span></td>
+            <td style="padding-bottom:0px;" class="dedefault">
+               <select name="role" id="role">
+                  <option value="">--Select a Role--</option>
+                  <option value="PRE">Member</option>
+               </select>
+            </td>
+         </tr>
+
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Committee / Team:</span></label><span
+                  class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                     align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                     vspace="0" border="0" height="9" width="10"></span></td>
+            <td style="padding-bottom:8px;" class="dedefault">
+               <select name="committee" id="committee">
+                  <option value="">--Select a Committee--</option>
+                  <option value="PRE">Clubs and Conferences</option>
+                  <option value="UP_B">External Affairs</option>
+                  <option value="UP_B">Legislative</option>
+                  <option value="UP_B">Monitoring</option>
+                  <option value="UP_B">Press Board</option>
+                  <option value="UP_B">Public Opinion</option>
+                  <option value="UP_B">Sports</option>
+               </select>
+            </td>
+         </tr>
+
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Constituency / Major:</span></label><span
+                  class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                     align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                     vspace="0" border="0" height="9" width="10"></span></td>
+            <td style="padding-bottom:0px;" class="dedefault">
+               <select name="major" id="major">
+                  <option value="">--Select a Constituency / Major--</option>
+                  <option value="PRE">Undeclared</option>
+                  <option value="PRE">Accounting</option>
+                  <option value="UP_B">Anthropology</option>
+                  <option value="UP_B">Arabic Studies</option>
+                  <option value="UP_B">Architecture</option>
+                  <option value="UP_B">Biology</option>
+                  <option value="UP_B">Business and Entrepreneurship</option>
+                  <option value="UP_B">Chemistry</option>
+                  <option value="UP_B">Computer Science</option>
+                  <option value="UP_B">Computer Engineering</option>
+                  <option value="UP_B">Construction Engineering</option>
+                  <option value="UP_B">Data Science</option>
+                  <option value="UP_B">Economics</option>
+                  <option value="UP_B">Egyptology</option>
+                  <option value="UP_B">Electronics and communications Engineering</option>
+                  <option value="UP_B">English and Comparative Literature</option>
+                  <option value="UP_B">Film</option>
+                  <option value="UP_B">Finance</option>
+                  <option value="UP_B">Graphic Design</option>
+                  <option value="UP_B">History</option>
+                  <option value="UP_B">Integrated Marketing communication</option>
+                  <option value="UP_B">Management of Information and communication Technology</option>
+                  <option value="UP_B">Marketing</option>
+                  <option value="UP_B">Mathematics</option>
+                  <option value="UP_B">Mechanical Engineering</option>
+                  <option value="UP_B">Middle East Studies</option>
+                  <option value="UP_B">Multimedia Communication and Journalism</option>
+                  <option value="UP_B">Music Technology</option>
+                  <option value="UP_B">Performance</option>
+                  <option value="UP_B">Petroleum Engineering</option>
+                  <option value="UP_B">Philosophy</option>
+                  <option value="UP_B">Physics</option>
+                  <option value="UP_B">Political Science</option>
+                  <option value="UP_B">Psychology</option>
+                  <option value="UP_B">Sociology</option>
+                  <option value="UP_B">Theatre</option>
+                  <option value="UP_B">Visual Arts</option>
+               </select>
+            </td>
+         </tr>
+
+         <tr>
+            <td class="dedefault"><label><span class="fieldlabeltext">Semester:</span></label><span
+                  class="fieldrequiredtext"><img src="./bwszcctr.P_ACAD_COMM_SERVICE_files/web_required_cascade.png"
+                     align="bottom" alt="Required" class="headerImg" title="Required" name="web_required" hspace="0"
+                     vspace="0" border="0" height="9" width="10"></span></td>
+            <td style="padding-bottom:0px;" class="dedefault">
+               <select name="term" id="term">
+                <option value="">--Select a Semester--</option>
+                  <option value="Fall 2021">Fall 2022</option>
+                  <option value="Spring 2022">Spring 2023</option>
+               </select>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+   <button id="id____UID6" type="submit" name="submit_btn" value="Save" onclick="beforeSubmit(this)" '="" class="htmlButton" url=""><div class="defaultButtonSmall"><div><div>Save</div></div></div></button><input type="submit" name="submit_btn" value="Save" style="display: none;">
+<button id="id____UID7" type="submit" name="submit_btn" value="Reset" onclick="beforeSubmit(this)" '=""
+      class="htmlButton" url="">
+      <div class="defaultButtonSmall">
+         <div>
+            <div>Reset</div>
+         </div>
+      </div>
+   </button><input type="submit" name="submit_btn" value="Reset" style="display: none;">
+
+</div>
+</div>
+</form>
+    </body>
+</html>
