@@ -61,7 +61,7 @@ function updateSecondDropdown_Category_and_Club() {
                   <option value="MEM">Member</option>
 */
 a=[
-    "PRE","UP_B","H_B","MEM", "PER", "TRE"
+    "PRE","UP_B","H_B","MEM", "PER", "TR"
 ]
 function update_pos() {
     var firstDropdown = document.getElementById("location");
