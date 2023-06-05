@@ -61,7 +61,7 @@ function updateSecondDropdown_Category_and_Club() {
                   <option value="MEM">Member</option>
 */
 a=[
-    "PRE","UP_B","H_B","MEM", "PER"
+    "PRE","UP_B","H_B","MEM", "PER", "TRE"
 ]
 function update_pos() {
     var firstDropdown = document.getElementById("location");
@@ -105,6 +105,14 @@ function update_pos() {
     }
     else if (selectedValue === a[4]) {
         Inner_HTML = ["Yearlong Leader", "Orientation Leader"];
+        for (let i = 0; i < Inner_HTML.length; i++) {
+            var element = document.createElement("option")
+            element.innerHTML = Inner_HTML[i];
+            secondDropdown.appendChild(element);
+        }
+    }
+    else if (selectedValue === a[5]) {
+        Inner_HTML = ["Treasurer"];
         for (let i = 0; i < Inner_HTML.length; i++) {
             var element = document.createElement("option")
             element.innerHTML = Inner_HTML[i];
